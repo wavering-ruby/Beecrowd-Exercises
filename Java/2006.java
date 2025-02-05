@@ -1,7 +1,7 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Main {
+public class 2006 { // Lembre-se de manter em Main para enviar no beecrowd.
     public static void main(String[] args) throws IOException {
         Scanner s = new Scanner(System.in);
         
