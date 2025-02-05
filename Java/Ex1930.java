@@ -1,7 +1,7 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-public class 1930 {
+public class Ex1930 {
     public static void main(String[] args) throws IOException {
         Scanner s = new Scanner(System.in);
 
