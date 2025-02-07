@@ -1,6 +1,8 @@
 # Beecrowd-Exercises
 This repository contains solutions to various Beecrowd exercises in multiple programming languages. The exercises are organized into folders based on the programming language used.
 
+This documentation code it's IA generated. Be sure to search the question in the Beecrowd offical site to more detail of the problem.
+
 ## C
 - [1000.c](C/1000.c): Prints "Hello World!".
 - [1001.c](C/1001.c): Reads two integers and prints their sum.
@@ -55,5 +57,3 @@ This repository contains solutions to various Beecrowd exercises in multiple pro
 - [1930.py](Python/1930.py): Calculates the sum of four integers minus three.
 - [2006.py](Python/2006.py): Counts the number of times a given integer appears in a list.
 - [3058.py](Python/3058.py): Finds the lowest price per gram for a given number of items.
-
-**04/02/2025 edit:** Now, I'm will trying to resolve one question by day. Good lucky for me!
