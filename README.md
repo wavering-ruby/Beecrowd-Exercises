@@ -44,10 +44,10 @@ This documentation code it's IA generated. Be sure to search the question in the
 
 ## Java
 
-- [Ex1000.java](Java/Ex1000.java): Prints "Hello World!".
-- [Ex1001.java](Java/Ex1001.java): Reads two integers and prints their sum.
-- [Ex1930.java](Java/Ex1930.java): Calculates the sum of four integers minus three.
-- [Ex2006.java](Java/Ex2006.java): Counts the number of times a given integer appears in a list.
+- [1000.java](Java/Ex1000.java): Prints "Hello World!".
+- [1001.java](Java/Ex1001.java): Reads two integers and prints their sum.
+- [1930.java](Java/Ex1930.java): Calculates the sum of four integers minus three.
+- [2006.java](Java/Ex2006.java): Counts the number of times a given integer appears in a list.
 
 ## Python
 
