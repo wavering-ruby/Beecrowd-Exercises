@@ -4,6 +4,7 @@ This repository contains solutions to various Beecrowd exercises in multiple pro
 This documentation code it's IA generated. Be sure to search the question in the Beecrowd offical site to more detail of the problem.
 
 ## C
+
 - [1000.c](C/1000.c): Prints "Hello World!".
 - [1001.c](C/1001.c): Reads two integers and prints their sum.
 - [1002.c](C/1002.c): Calculates the area of a circle given its radius.
