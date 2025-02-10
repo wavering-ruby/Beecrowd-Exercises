@@ -1,4 +1,4 @@
-# Beecrowd-Exercises
+# Beecrowd-Exercises 🇧🇷
 This repository contains solutions to various Beecrowd exercises in multiple programming languages. The exercises are organized into folders based on the programming language used.
 
 This documentation code it's IA generated. Be sure to search the question in the Beecrowd offical site to more detail of the problem.
