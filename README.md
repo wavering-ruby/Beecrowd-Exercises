@@ -3,6 +3,8 @@ This repository contains solutions to various Beecrowd exercises in multiple pro
 
 This documentation code it's IA generated. Be sure to search the question in the Beecrowd offical site to more detail of the problem.
 
+---
+
 ## C
 
 - [1000.c](C/1000.c): Prints "Hello World!".
@@ -33,9 +35,13 @@ This documentation code it's IA generated. Be sure to search the question in the
 - [1064.c](C/1064.c): Counts the number of positive values and calculates their average.
 - [1074.c](C/1074.c): Determines if a number is even or odd and positive or negative.
 
+---
+
 ## C#
 
 - [1009.cs](C#/1009.cs): Calculates the total salary including commission.
+
+---
 
 ## C++
 
@@ -43,12 +49,16 @@ This documentation code it's IA generated. Be sure to search the question in the
 - [1001.c++](C++/1001.c++): Reads two integers and prints their sum.
 - [1009.c++](C++/1009.c++): Calculates the total salary including commission.
 
+---
+
 ## Java
 
 - [1000.java](Java/Ex1000.java): Prints "Hello World!".
 - [1001.java](Java/Ex1001.java): Reads two integers and prints their sum.
 - [1930.java](Java/Ex1930.java): Calculates the sum of four integers minus three.
 - [2006.java](Java/Ex2006.java): Counts the number of times a given integer appears in a list.
+
+---
 
 ## Python
 
@@ -59,6 +69,8 @@ This documentation code it's IA generated. Be sure to search the question in the
 - [1930.py](Python/1930.py): Calculates the sum of four integers minus three.
 - [2006.py](Python/2006.py): Counts the number of times a given integer appears in a list.
 - [3058.py](Python/3058.py): Finds the lowest price per gram for a given number of items.
+
+---
 
 ## JavaSript
 - In Construction
