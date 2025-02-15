@@ -73,7 +73,12 @@ This documentation code it's IA generated. Be sure to search the question in the
 ---
 
 ## JavaSript
-- In Construction
+
+- [1000.js](JavaScript/1000.js): Prints "Hello World!".
+
+---
 
 ## Kotlin
 - In Construction
+
+---
