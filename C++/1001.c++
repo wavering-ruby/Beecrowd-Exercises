@@ -1,14 +1,13 @@
-#include <stdio.h>
- 
-int main() {
+#include <iostream>
+
+int main()
+{
+    int a, b, x;
+    std::cin >> a >> b;
     
-    int A, B, X;
+    x = a + b;
     
-    scanf("%d", &A);
-    scanf("%d", &B);
- 
-    X = A + B;
-    
-    printf("X = %d\n", X);
+    std::cout <<"X = " << x << "\n" << std::endl;
+
     return 0;
 }
