@@ -75,7 +75,7 @@ This documentation code it's IA generated. Be sure to search the question in the
 ## JavaSript
 
 - [1000.js](JavaScript/1000.js): Prints "Hello World!".
-- [1002.py](JavaScript/1002.js): Calculates the area of a circle given its radius.
+- [1001.js](JavaScript/1001.js): Reads two integers and prints their sum.
 
 ---
 
