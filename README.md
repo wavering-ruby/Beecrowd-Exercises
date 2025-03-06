@@ -67,6 +67,7 @@ This documentation code it's IA generated. Be sure to search the question in the
 - [1001.py](Python/1001.py): Reads two integers and prints their sum.
 - [1002.py](Python/1002.py): Calculates the area of a circle given its radius.
 - [1008.py](Python/1008.py): Calculates the salary of an employee.
+- [1153.py](Python/1153.py): Calculates the fatorial of a number.
 - [1930.py](Python/1930.py): Calculates the sum of four integers minus three.
 - [2006.py](Python/2006.py): Counts the number of times a given integer appears in a list.
 - [3058.py](Python/3058.py): Finds the lowest price per gram for a given number of items.
