@@ -1,6 +1,6 @@
-#include <iostream>  // Inclui a biblioteca para operações de entrada e saída
-
+#include <stdio.h>
+ 
 int main() {
-    std::cout << "Hello World!" << std::endl;  // Imprime a mensagem na tela
-    return 0;  // Indica que o programa terminou com sucesso
+    printf("Hello World! \n");
+    return 0;
 }
