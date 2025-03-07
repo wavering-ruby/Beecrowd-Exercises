@@ -7,7 +7,7 @@ int main()
     
     x = a + b;
     
-    std::cout <<"X = " << x << "\n" << std::endl;
+    std::cout <<"X = " << x << std::endl;
 
     return 0;
 }
