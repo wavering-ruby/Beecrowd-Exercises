@@ -23,6 +23,7 @@ This documentation code it's IA generated. Be sure to search the question in the
 - [1013.c](C/1013.c): Finds the largest of three integers.
 - [1014.c](C/1014.c): Calculates fuel consumption.
 - [1015.c](C/1015.c): Calculates the distance between two points.
+- [1016.c](C/1016.c): Calculates the time in minutes for car B, traveling at 90 km/h, to surpass car A, traveling at 60 km/h, by a user-determined distance in kilometers.
 - [1035.c](C/1035.c): Checks if four values meet certain conditions.
 - [1037.c](C/1037.c): Determines the interval in which a value falls.
 - [1038.c](C/1038.c): Calculates the total price for a given item code and quantity.
