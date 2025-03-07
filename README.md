@@ -41,7 +41,7 @@ This documentation code it's IA generated. Be sure to search the question in the
 ---
 
 ## C#
-
+- [1000.cs](C#/1000.cs): Prints "Hello World!".
 - [1009.cs](C#/1009.cs): Calculates the total salary including commission.
 
 ---
