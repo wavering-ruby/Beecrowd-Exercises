@@ -35,6 +35,7 @@ This documentation code it's IA generated. Be sure to search the question in the
 - [1060.c](C/1060.c): Counts the number of positive values.
 - [1064.c](C/1064.c): Counts the number of positive values and calculates their average.
 - [1074.c](C/1074.c): Determines if a number is even or odd and positive or negative.
+- [1153.c](C/1153.c): Calculates the fatorial of a integer.
 
 ---
 
