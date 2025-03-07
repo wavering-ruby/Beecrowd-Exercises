@@ -51,6 +51,7 @@ This documentation code it's IA generated. Be sure to search the question in the
 - [1000.c++](C++/1000.c++): Prints "Hello World!". <!-- Compiled -->
 - [1001.c++](C++/1001.c++): Reads two integers and prints their sum.
 - [1009.c++](C++/1009.c++): Calculates the total salary including commission.
+- [1016.c](C/1016.c): Calculates the time in minutes for car B, traveling at 90 km/h, to surpass car A, traveling at 60 km/h, by a user-determined distance in kilometers.
 
 ---
 
