@@ -47,7 +47,7 @@ This documentation code it's IA generated. Be sure to search the question in the
 
 ## C++
 
-- [1000.c++](C++/1000.c++): Prints "Hello World!".
+- [1000.c++](C++/1000.c++): Prints "Hello World!". <!-- Compiled -->
 - [1001.c++](C++/1001.c++): Reads two integers and prints their sum.
 - [1009.c++](C++/1009.c++): Calculates the total salary including commission.
 
