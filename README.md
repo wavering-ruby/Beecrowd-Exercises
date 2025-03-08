@@ -61,6 +61,7 @@ This documentation code it's IA generated. Be sure to search the question in the
 - [1000.java](Java/Ex1000.java): Prints "Hello World!".
 - [1001.java](Java/Ex1001.java): Reads two integers and prints their sum.
 - [1016.java](Java/Ex1016.java): Calculates the time in minutes for car B, traveling at 90 km/h, to surpass car A, traveling at 60 km/h, by a user-determined distance in kilometers.
+- [1017.java](Java/Ex1017.java): Calculates the fuel consumption of a car (12 liters per kilometer) based on the average speed and time given by the user.
 - [1153.java](Java/Ex1153.java): Calculates the fatorial of a integer.
 - [1930.java](Java/Ex1930.java): Calculates the sum of four integers minus three.
 - [2006.java](Java/Ex2006.java): Counts the number of times a given integer appears in a list.
