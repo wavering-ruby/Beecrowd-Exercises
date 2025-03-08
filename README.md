@@ -24,6 +24,7 @@ This documentation code it's IA generated. Be sure to search the question in the
 - [1014.c](C/1014.c): Calculates fuel consumption.
 - [1015.c](C/1015.c): Calculates the distance between two points.
 - [1016.c](C/1016.c): Calculates the time in minutes for car B, traveling at 90 km/h, to surpass car A, traveling at 60 km/h, by a user-determined distance in kilometers.
+- [1017.c](C/1017.c): Calculates the fuel consumption of a car (12 liters per kilometer) based on the average speed and time given by the user.
 - [1035.c](C/1035.c): Checks if four values meet certain conditions.
 - [1037.c](C/1037.c): Determines the interval in which a value falls.
 - [1038.c](C/1038.c): Calculates the total price for a given item code and quantity.
@@ -73,6 +74,7 @@ This documentation code it's IA generated. Be sure to search the question in the
 - [1002.py](Python/1002.py): Calculates the area of a circle given its radius.
 - [1008.py](Python/1008.py): Calculates the salary of an employee.
 - [1016.py](Python/1016.py): Calculates the time in minutes for car B, traveling at 90 km/h, to surpass car A, traveling at 60 km/h, by a user-determined distance in kilometers.
+- [1017.py](Python/1017.py): Calculates the fuel consumption of a car (12 liters per kilometer) based on the average speed and time given by the user.
 - [1153.py](Python/1153.py): Calculates the fatorial of a integer.
 - [1930.py](Python/1930.py): Calculates the sum of four integers minus three.
 - [2006.py](Python/2006.py): Counts the number of times a given integer appears in a list.
