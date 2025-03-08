@@ -42,6 +42,7 @@ This documentation code it's IA generated. Be sure to search the question in the
 ---
 
 ## C#
+
 - [1000.cs](C#/1000.cs): Prints "Hello World!".
 - [1009.cs](C#/1009.cs): Calculates the total salary including commission.
 
@@ -49,8 +50,14 @@ This documentation code it's IA generated. Be sure to search the question in the
 
 ## C++
 
-- [1000.c++](C++/1000.c++): Prints "Hello World!". <!-- Compiled -->
+- [1000.c++](C++/1000.c++): Prints "Hello World!".
 - [1001.c++](C++/1001.c++): Reads two integers and prints their sum.
+- [1002.c++](C++/1002.c++): Calculates the area of a circle given its radius.
+- [1003.c++](C++/1003.c++): Reads two integers and prints their sum.
+- [1004.c++](C++/1004.c++): Reads two integers and prints their product.
+- [1005.c++](C++/1005.c++): Calculates the weighted average of two grades.
+<!-- - [1006.c++](C++/1006.c++): Calculates the weighted average of three grades.
+- [1007.c++](C++/1007.c++): Calculates the difference between the product of two pairs of integers. -->
 - [1009.c++](C++/1009.c++): Calculates the total salary including commission.
 - [1016.c++](C++/1016.c++): Calculates the time in minutes for car B, traveling at 90 km/h, to surpass car A, traveling at 60 km/h, by a user-determined distance in kilometers.
 
