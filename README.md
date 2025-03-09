@@ -99,6 +99,14 @@ This documentation code it's IA generated. Be sure to search the question in the
 
 ---
 
+## SQL
+- [2602.sql](SQL/2602.sql): Get all the names of the customers where state is equal to 'RS'.
+- [2603.sql](SQL/2603.sql): Get all the names of the customers where city is equal to 'Porto Alegre'.
+- [2604.sql](SQL/2604.sql): Get the id and name from customers that's price < 10 or the price is > 100.
+- [2605.sql](SQL/2606.sql): Return the names of the products and their suppliers for those with a category code of 6.
+
+---
+
 ## Kotlin
 - In Construction
 
