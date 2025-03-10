@@ -1,0 +1,26 @@
+# Tips for C++
+
+## Set Precision
+
+In Beecrowd, some exercise have to limit how many digits in floating point you need. So the `<iomanip>` library has a function that you can use in `std::cout` to limit the precision `std::setprecision(X)` (where "X" are the number of digits), in the same library you have `std::fixed` to fix how many digits you want.
+
+You will also see some of exercise code using this library.
+
+Obs.: the `std::setprecision` function don't fix the digits, example: 
+
+If you make 3.14 + 3.145, your ansawer will be: `3.18`, but, if you make: 10.0 + 10.0, your output will be: `10`, and in beecrowd will consider a `Presetantion Error`. So, this why you need to use `std::fixed`.
+
+### Example of Code
+
+```C++
+#include <iomanip>
+
+int main(){
+    int a = 3.146;
+    int b = 5.123;
+
+    std::cout << std::fixed << std::setprecision << a + b << endln
+
+    return 0;
+}
+```

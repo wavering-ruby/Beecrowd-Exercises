@@ -50,6 +50,8 @@ This documentation code it's IA generated. Be sure to search the question in the
 
 ## C++
 
+If you want some tips for C++, you can read a [Tips for C](C++/TipsForC++.md) document.
+
 - [1000.c++](C++/1000.c++): Prints "Hello World!".
 - [1001.c++](C++/1001.c++): Reads two integers and prints their sum.
 - [1002.c++](C++/1002.c++): Calculates the area of a circle given its radius.
