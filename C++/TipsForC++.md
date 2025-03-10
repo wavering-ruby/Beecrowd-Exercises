@@ -36,3 +36,7 @@ std::cin >> name >> sal >> comm;
 ```
 
 In this way, you're able to read three values from the first line. There will be a error if the quantity of values of the input is `i > n` or `n < i`, where `i` is the quantity of inputs of the user and `n` is the number of variables in `std::cin`.
+
+## Assuming Integer
+
+Note, in some language (like C++) the division of two integers like: `(10/4)` will return a integer, so, in some exercises you need to assume that some of the values has a floating point, like: `10.0/4` or `10/4.0`, or everything like this.
