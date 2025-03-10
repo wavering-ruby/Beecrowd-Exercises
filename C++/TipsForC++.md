@@ -24,3 +24,15 @@ int main(){
     return 0;
 }
 ```
+
+---
+
+## Read Values in One Line
+
+In Beecrowd and some international code exercise (like ICPC maraton) you need to read some values in just one line, in C++ it's simple, you only need to use the code like this:
+
+```C++
+std::cin >> name >> sal >> comm;
+```
+
+In this way, you're able to read three values from the first line. There will be a error if the quantity of values of the input is `i > n` or `n < i`, where `i` is the quantity of inputs of the user and `n` is the number of variables in `std::cin`.
