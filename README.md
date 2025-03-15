@@ -65,7 +65,7 @@ If you want some tips for C++, you can read a [Tips for C](C++/TipsForC++.md) do
 - [1010.c++](C++/1010.c++): Calculates the total to pay about two types of pieces and the quantity.
 - [1011.c++](C++/1011.c++): Calculates the volume of a sphere given its radius.
 - [1016.c++](C++/1016.c++): Calculates the time in minutes for car B, traveling at 90 km/h, to surpass car A, traveling at 60 km/h, by a user-determined distance in kilometers.
-- [1016.c++](C++/1016.c++): Calculates the total of hours:minutes:seconds of an given number of total of seconds.
+- [1019.c++](C++/1019.c++): Calculates the total of hours:minutes:seconds of an given number of total of seconds.
 
 ---
 
