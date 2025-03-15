@@ -20,10 +20,16 @@ def number_files():
     for item in os.listdir(root_path):
         item_path = os.path.join(root_path, item)
         
-        # Verifica se o item é uma pasta
-        if os.path.isdir(item_path):
-            # Conta os arquivos dentro da pasta (ignorando subpastas)
-            file_count = sum(1 for file in os.listdir(item_path) if os.path.isfile(os.path.join(item_path, file)))
+        # Verifica se o item é uma pasta e não é oculta
+        if os.path.isdir(item_path) and not item.startswith('.'):
+            # Conta apenas arquivos (ignorando subpastas)
+            file_count = sum(
+                1 for file in os.listdir(item_path)
+                if os.path.isfile(os.path.join(item_path, file)))
+            
+            # Depuração: Mostra qual pasta está sendo processada e quantos arquivos tem
+            print(f"Pasta: {item}, Arquivos: {file_count}")
+            
             counts.append(file_count)
     
     return counts
