@@ -117,15 +117,17 @@ If you want some tips for C++, you can read a [Tips for C](C++/TipsForC++.md) do
 
 ---
 
-
-
-Atualizado automaticamente.
-
 ## Progresso dos Exercícios
 
 Abaixo está o progresso de conclusão dos exercícios por linguagem:
 
-![C](https://img.shields.io/badge/C-100%concluído-brightgreen.svg) ![C#](https://img.shields.io/badge/C#-13.33% concluído-red.svg) ![C++](https://img.shields.io/badge/C++-75.0% concluído-brightgreen.svg) ![Java](https://img.shields.io/badge/Java-100% concluído-brightgreen.svg) ![JavaScript](https://img.shields.io/badge/JavaScript-50.0% concluído-orange.svg) ![Python](https://img.shields.io/badge/Python-83.33% concluído-brightgreen.svg) ![SQL](https://img.shields.io/badge/SQL-57.14% concluído-orange.svg)
+- **C**: 8.98% concluído
+- **C#**: 0.6% concluído
+- **C++**: 4.49% concluído
+- **Java**: 2.1% concluído
+- **JavaScript**: 1.2% concluído
+- **Python**: 2.99% concluído
+- **SQL**: 8.0% concluído
 
 ---
 Atualizado automaticamente.
