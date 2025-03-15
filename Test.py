@@ -1,14 +1,13 @@
 import os;
 
 def foldersName():
-    name = {
-        {
-            "Language": "Python",
-            "TotProblems": 0,
-            "ResolvedProblems": 0
-        }
-    }
+    langFolders = [];
     
-    return list(name[0].values())[0];
+    for root, dirs, files in os.walk('/C:/Users/mgmde/OneDrive/Desktop/Beecrowd-Exercises'):
+        for dir in dirs:
+            langFolders.append(dir)
+        break
+    
+    return langFolders;
 
 print(foldersName());
