@@ -14,11 +14,17 @@ def folders_name():
 
 def number_files():
     counts = []  # Lista para armazenar a quantidade de arquivos em cada pasta
+    root_path = 'C:/Users/mgmde/OneDrive/Desktop/Beecrowd-Exercises'
     
-    for root, dirs, files in os.walk('C:/Users/mgmde/OneDrive/Desktop/Beecrowd-Exercises'):
-        # Conta apenas arquivos que não são ocultos
-        file_count = sum(1 for file in files if not file.startswith('.'))
-        counts.append(file_count)  # Adiciona a contagem de arquivos à lista
+    # Lista apenas os itens no nível superior do diretório
+    for item in os.listdir(root_path):
+        item_path = os.path.join(root_path, item)
+        
+        # Verifica se o item é uma pasta
+        if os.path.isdir(item_path):
+            # Conta os arquivos dentro da pasta (ignorando subpastas)
+            file_count = sum(1 for file in os.listdir(item_path) if os.path.isfile(os.path.join(item_path, file)))
+            counts.append(file_count)
     
     return counts
 
