@@ -55,24 +55,24 @@ def generate_markdown_content(lang_folders, completion_percentages):
     :param completion_percentages: Lista de porcentagens de conclusão.
     :return: Conteúdo do arquivo Markdown como uma string.
     """
-    markdown_content = "# Progresso dos Exercícios\n\n"
+    markdown_content = "\n## Progresso dos Exercícios\n\n"
     markdown_content += "Abaixo está o progresso de conclusão dos exercícios por linguagem:\n\n"
     
     for i in range(len(lang_folders)):
         markdown_content += f"- **{lang_folders[i]}**: {completion_percentages[i]}% concluído\n"
     
     markdown_content += "\n---\n"
-    markdown_content += "Atualizado automaticamente."
+    markdown_content += "Atualizado automaticamente.\n"
     
     return markdown_content
 
-def write_to_markdown_file(content, file_path):
+def append_to_markdown_file(content, file_path):
     """
-    Escreve o conteúdo no arquivo Markdown.
-    :param content: Conteúdo a ser escrito no arquivo.
+    Adiciona o conteúdo ao final do arquivo Markdown.
+    :param content: Conteúdo a ser adicionado ao arquivo.
     :param file_path: Caminho do arquivo Markdown.
     """
-    with open(file_path, 'w', encoding='utf-8') as file:
+    with open(file_path, 'a', encoding='utf-8') as file:
         file.write(content)
 
 def main():
@@ -94,10 +94,10 @@ def main():
     # Caminho do arquivo Markdown
     markdown_file_path = 'C:/Users/mgmde/OneDrive/Desktop/Beecrowd-Exercises/README.md'  # Altere para o caminho desejado
     
-    # Escreve o conteúdo no arquivo Markdown
-    write_to_markdown_file(markdown_content, markdown_file_path)
+    # Adiciona o conteúdo ao final do arquivo Markdown
+    append_to_markdown_file(markdown_content, markdown_file_path)
     
-    print(f"Arquivo Markdown atualizado com sucesso em: {markdown_file_path}")
+    print(f"Progresso adicionado ao arquivo Markdown em: {markdown_file_path}")
 
 if __name__ == "__main__":
     main()

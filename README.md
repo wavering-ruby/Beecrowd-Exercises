@@ -116,3 +116,18 @@ If you want some tips for C++, you can read a [Tips for C](C++/TipsForC++.md) do
 - In Construction
 
 ---
+
+## Progresso dos Exercícios
+
+Abaixo está o progresso de conclusão dos exercícios por linguagem:
+
+- **C**: 300.0% concluído
+- **C#**: 13.33% concluído
+- **C++**: 75.0% concluído
+- **Java**: 140.0% concluído
+- **JavaScript**: 50.0% concluído
+- **Python**: 83.33% concluído
+- **SQL**: 57.14% concluído
+
+---
+Atualizado automaticamente.
