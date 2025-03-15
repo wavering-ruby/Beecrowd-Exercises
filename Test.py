@@ -27,9 +27,6 @@ def number_files():
                 1 for file in os.listdir(item_path)
                 if os.path.isfile(os.path.join(item_path, file)))
             
-            # Depuração: Mostra qual pasta está sendo processada e quantos arquivos tem
-            print(f"Pasta: {item}, Arquivos: {file_count}")
-            
             counts.append(file_count)
     
     return counts
