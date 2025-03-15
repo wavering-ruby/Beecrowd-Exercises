@@ -98,7 +98,7 @@ def update_markdown_file(new_content, file_path):
 
 def main():
     # Vetor com a quantidade de exercícios definidos por linguagem (na mesma ordem das pastas)
-    defined_exercises = [10, 15, 20, 5, 8, 12, 7]  # Exemplo: Defina os valores corretos aqui
+    defined_exercises = [334, 334, 334, 334, 334, 334, 50]  # Exemplo: Defina os valores corretos aqui
     
     # Obtém os nomes das pastas
     lang_folders = folders_name()
