@@ -66,14 +66,35 @@ def generate_markdown_content(lang_folders, completion_percentages):
     
     return markdown_content
 
-def append_to_markdown_file(content, file_path):
+def update_markdown_file(new_content, file_path):
     """
-    Adiciona o conteúdo ao final do arquivo Markdown.
-    :param content: Conteúdo a ser adicionado ao arquivo.
+    Atualiza o arquivo Markdown, substituindo a seção de progresso antiga pela nova.
+    :param new_content: Novo conteúdo da seção de progresso.
     :param file_path: Caminho do arquivo Markdown.
     """
-    with open(file_path, 'a', encoding='utf-8') as file:
-        file.write(content)
+    with open(file_path, 'r', encoding='utf-8') as file:
+        lines = file.readlines()
+    
+    # Encontra o início e o fim da seção de progresso
+    start_index = None
+    end_index = None
+    for i, line in enumerate(lines):
+        if line.startswith("## Progresso dos Exercícios"):
+            start_index = i
+        if start_index is not None and line.startswith("---"):
+            end_index = i
+            break
+    
+    # Remove a seção antiga, se existir
+    if start_index is not None and end_index is not None:
+        del lines[start_index:end_index + 1]
+    
+    # Adiciona a nova seção de progresso
+    lines.append("\n" + new_content)
+    
+    # Reescreve o arquivo com o conteúdo atualizado
+    with open(file_path, 'w', encoding='utf-8') as file:
+        file.writelines(lines)
 
 def main():
     # Vetor com a quantidade de exercícios definidos por linguagem (na mesma ordem das pastas)
@@ -94,10 +115,10 @@ def main():
     # Caminho do arquivo Markdown
     markdown_file_path = 'C:/Users/mgmde/OneDrive/Desktop/Beecrowd-Exercises/README.md'  # Altere para o caminho desejado
     
-    # Adiciona o conteúdo ao final do arquivo Markdown
-    append_to_markdown_file(markdown_content, markdown_file_path)
+    # Atualiza o arquivo Markdown
+    update_markdown_file(markdown_content, markdown_file_path)
     
-    print(f"Progresso adicionado ao arquivo Markdown em: {markdown_file_path}")
+    print(f"Progresso atualizado no arquivo Markdown em: {markdown_file_path}")
 
 if __name__ == "__main__":
     main()
