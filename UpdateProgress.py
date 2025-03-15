@@ -6,9 +6,10 @@ def folders_name():
     # Usando os.walk para percorrer o diretório
     for root, dirs, files in os.walk('C:/Users/mgmde/OneDrive/Desktop/Beecrowd-Exercises'):
         for dir in dirs:
-            if not dir.startswith('.'):  # Ignora diretórios ocultos ou que começam com '.'
+            # Essa função faz para que ignore todos os diretórios (pastas) que começam com ponto (.)
+            if not dir.startswith('.'): 
                 lang_folders.append(dir)
-        break  # Interrompe após a primeira iteração para evitar percorrer subdiretórios
+        break  # Para evitar que percorra subpastas
     
     return lang_folders
 
@@ -45,33 +46,58 @@ def calculate_completion_percentage(file_counts, defined_exercises):
             completion_percentages.append(0)
         else:
             percentage = (file_counts[i] / defined_exercises[i]) * 100
+            # Limita a porcentagem a 100%
+            percentage = min(percentage, 100)
             completion_percentages.append(round(percentage, 2))  # Arredonda para 2 casas decimais
     return completion_percentages
 
-def generate_markdown_content(lang_folders, completion_percentages):
+def generate_badge(label, value, color="brightgreen"):
     """
-    Gera o conteúdo do arquivo Markdown.
+    Gera uma tag (badge) no formato Markdown usando shields.io.
+    
+    :param label: Texto do lado esquerdo do badge.
+    :param value: Texto do lado direito do badge.
+    :param color: Cor do badge (padrão é "brightgreen").
+    :return: String no formato de badge Markdown.
+    """
+    # Formata a URL do shields.io
+    badge_url = f"https://img.shields.io/badge/{label}-{value}-{color}.svg"
+    
+    # Retorna o badge no formato Markdown
+    return f"![{label}]({badge_url})"
+
+def generate_progress_badges(lang_folders, completion_percentages):
+    """
+    Gera badges de progresso para cada linguagem.
+    
     :param lang_folders: Lista de nomes das pastas (linguagens).
     :param completion_percentages: Lista de porcentagens de conclusão.
-    :return: Conteúdo do arquivo Markdown como uma string.
+    :return: Lista de badges no formato Markdown.
     """
-    markdown_content = "\n## Progresso dos Exercícios\n\n"
-    markdown_content += "Abaixo está o progresso de conclusão dos exercícios por linguagem:\n\n"
-    
+    badges = []
     for i in range(len(lang_folders)):
-        markdown_content += f"- **{lang_folders[i]}**: {completion_percentages[i]}% concluído\n"
-    
-    markdown_content += "\n---\n"
-    markdown_content += "Atualizado automaticamente.\n"
-    
-    return markdown_content
+        label = lang_folders[i]
+        value = f"{completion_percentages[i]}% concluído"  # Usando "%" diretamente
+        color = "brightgreen" if completion_percentages[i] >= 75 else "orange" if completion_percentages[i] >= 50 else "red"
+        badge = generate_badge(label, value, color)
+        badges.append(badge)
+    return badges
 
-def update_markdown_file(new_content, file_path):
+def update_markdown_file(badges, file_path):
     """
-    Atualiza o arquivo Markdown, substituindo a seção de progresso antiga pela nova.
-    :param new_content: Novo conteúdo da seção de progresso.
+    Atualiza o arquivo Markdown com os badges de progresso.
+    
+    :param badges: Lista de badges no formato Markdown.
     :param file_path: Caminho do arquivo Markdown.
     """
+    # Cria o conteúdo da seção de progresso
+    progress_section = "## Progresso dos Exercícios\n\n"
+    progress_section += "Abaixo está o progresso de conclusão dos exercícios por linguagem:\n\n"
+    progress_section += " ".join(badges) + "\n\n"
+    progress_section += "---\n"
+    progress_section += "Atualizado automaticamente.\n"
+    
+    # Atualiza o arquivo Markdown
     with open(file_path, 'r', encoding='utf-8') as file:
         lines = file.readlines()
     
@@ -90,7 +116,7 @@ def update_markdown_file(new_content, file_path):
         del lines[start_index:end_index + 1]
     
     # Adiciona a nova seção de progresso
-    lines.append("\n" + new_content)
+    lines.append("\n" + progress_section)
     
     # Reescreve o arquivo com o conteúdo atualizado
     with open(file_path, 'w', encoding='utf-8') as file:
@@ -98,7 +124,7 @@ def update_markdown_file(new_content, file_path):
 
 def main():
     # Vetor com a quantidade de exercícios definidos por linguagem (na mesma ordem das pastas)
-    defined_exercises = [334, 334, 334, 334, 334, 334, 50]  # Exemplo: Defina os valores corretos aqui
+    defined_exercises = [10, 15, 20, 5, 8, 12, 7]  # Exemplo: Defina os valores corretos aqui
     
     # Obtém os nomes das pastas
     lang_folders = folders_name()
@@ -109,16 +135,16 @@ def main():
     # Calcula as porcentagens de conclusão
     completion_percentages = calculate_completion_percentage(file_counts, defined_exercises)
     
-    # Gera o conteúdo do arquivo Markdown
-    markdown_content = generate_markdown_content(lang_folders, completion_percentages)
+    # Gera os badges de progresso
+    badges = generate_progress_badges(lang_folders, completion_percentages)
     
     # Caminho do arquivo Markdown
     markdown_file_path = 'C:/Users/mgmde/OneDrive/Desktop/Beecrowd-Exercises/README.md'  # Altere para o caminho desejado
     
-    # Atualiza o arquivo Markdown
-    update_markdown_file(markdown_content, markdown_file_path)
+    # Atualiza o arquivo Markdown com os badges
+    update_markdown_file(badges, markdown_file_path)
     
-    print(f"Progresso atualizado no arquivo Markdown em: {markdown_file_path}")
+    print(f"Badges de progresso atualizados no arquivo Markdown em: {markdown_file_path}")
 
 if __name__ == "__main__":
     main()
