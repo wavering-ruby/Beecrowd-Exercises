@@ -66,6 +66,7 @@ If you want some tips for C++, you can read a [Tips for C](C++/TipsForC++.md) do
 - [1011.c++](C++/1011.c++): Calculates the volume of a sphere given its radius.
 - [1016.c++](C++/1016.c++): Calculates the time in minutes for car B, traveling at 90 km/h, to surpass car A, traveling at 60 km/h, by a user-determined distance in kilometers.
 - [1019.c++](C++/1019.c++): Calculates the total of hours:minutes:seconds of an given number of total of seconds.
+- [1153.cpp](C++/1153.cpp): Calculates the fatorial of a integer.
 
 ---
 
@@ -123,7 +124,7 @@ Abaixo está o progresso de conclusão dos exercícios por linguagem:
 
 - **C**: 8.98% concluído
 - **C#**: 0.6% concluído
-- **C++**: 4.49% concluído
+- **C++**: 4.79% concluído
 - **Java**: 2.1% concluído
 - **JavaScript**: 1.2% concluído
 - **Python**: 2.99% concluído
