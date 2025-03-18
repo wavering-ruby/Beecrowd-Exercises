@@ -66,9 +66,10 @@ If you want some tips for C++, you can read a [Tips for C](C++/TipsForC++.md) do
 - [1011.c++](C++/1011.c++): Calculates the volume of a sphere given its radius.
 - [1012.cpp](C++/1011.cpp): Calculates various geometric areas given three values.
 - [1016.c++](C++/1016.c++): Calculates the time in minutes for car B, traveling at 90 km/h, to surpass car A, traveling at 60 km/h, by a user-determined distance in kilometers.
-- [1018.c++](C++/1019.c++): Calculates the total of cedulas of an given number of total of the value.
+- [1018.c++](C++/1018.c++): Calculates the total of cedulas of an given number of total of the value.
 - [1019.c++](C++/1019.c++): Calculates the total of hours:minutes:seconds of an given number of total of seconds.
 - [1020.cpp](C++/1020.cpp): Calculates the total of years, month and days of an given  integer number of total of days.
+- [1021.cpp](C++/1021.cpp): Calculates the total of cedulas and coins of an given number of total of the value.
 - [1153.cpp](C++/1153.cpp): Calculates the fatorial of a integer.
 
 ---

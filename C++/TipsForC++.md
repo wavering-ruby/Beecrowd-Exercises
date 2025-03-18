@@ -19,7 +19,10 @@ int main(){
     int a = 3.146;
     int b = 5.123;
 
-    std::cout << std::fixed << std::setprecision(2) << a + b << endln
+    // Every cout after this code will use this precision.
+    std::cout << std::fixed << std::setprecision(2);
+
+    std::cout << a + b << endl;
 
     return 0;
 }
