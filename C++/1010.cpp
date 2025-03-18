@@ -1,7 +1,7 @@
 #include <iostream>
 #include <iomanip>
 
-int main() {
+int main(){
     int pc1, it1;
     float val1;
     

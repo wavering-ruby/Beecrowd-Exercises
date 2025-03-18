@@ -1,7 +1,6 @@
 #include <stdio.h>
  
-int main() {
-    
+int main(){
     int raio = scanf("%d", &raio);
     float pi = 3.14159;
     float area = (raio * raio) * pi;

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <iomanip>
 
-int main() {
+int main(){
     double r;
     double pi = 3.14159;
 

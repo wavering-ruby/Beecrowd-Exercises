@@ -8,8 +8,7 @@ int fatorial(int n){
     }
 }
 
-int main()
-{
+int main(){
     int fat;
     std::cin >> fat;
     
