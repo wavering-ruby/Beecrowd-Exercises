@@ -43,3 +43,7 @@ In this way, you're able to read three values from the first line. There will be
 ## Assuming Integer
 
 Note, in some language (like C++) the division of two integers like: `(10/4)` will return a integer, so, in some exercises you need to assume that some of the values has a floating point, like: `10.0/4` or `10/4.0`, or everything like this.
+
+## End of the Programm
+
+Somethimes, in others projects, we just return in the main another integer value, but if you need to compile in Beecrowd, your return of the main must be `return 0`, because, the software reconize return 0 as the end of the main function. If you don't use this nomeclature you exercise will be canceled and retorned `Runtime Error`.

@@ -14,7 +14,7 @@ int main(){
     
     if(a == 0 || delta < 0){
         std::cout << "Impossivel calcular" << std::endl;
-        return 1;
+        return 0;
     }
     
     x1 = (-b + sqrt(delta))/(2 * a);
