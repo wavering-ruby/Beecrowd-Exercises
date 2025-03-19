@@ -52,22 +52,25 @@ This documentation code it's IA generated. Be sure to search the question in the
 
 If you want some tips for C++, you can read a [Tips for C](C++/TipsForC++.md) document.
 
-- [1000.c++](C++/1000.c++): Prints "Hello World!".
-- [1001.c++](C++/1001.c++): Reads two integers and prints their sum.
-- [1002.c++](C++/1002.c++): Calculates the area of a circle given its radius.
-- [1003.c++](C++/1003.c++): Reads two integers and prints their sum.
-- [1004.c++](C++/1004.c++): Reads two integers and prints their product.
-- [1005.c++](C++/1005.c++): Calculates the weighted average of two grades.
-- [1006.c++](C++/1006.c++): Calculates the weighted average of three grades.
-- [1007.c++](C++/1007.c++): Calculates the difference between the product of two pairs of integers.
-- [1008.c++](C++/1008.c++): Calculates the salary of an employee.
-- [1009.c++](C++/1009.c++): Calculates the total salary including commission.
-- [1010.c++](C++/1010.c++): Calculates the total to pay about two types of pieces and the quantity.
-- [1011.c++](C++/1011.c++): Calculates the volume of a sphere given its radius.
-- [1012.cpp](C++/1011.cpp): Calculates various geometric areas given three values.
-- [1016.c++](C++/1016.c++): Calculates the time in minutes for car B, traveling at 90 km/h, to surpass car A, traveling at 60 km/h, by a user-determined distance in kilometers.
-- [1018.c++](C++/1018.c++): Calculates the total of cedulas of an given number of total of the value.
-- [1019.c++](C++/1019.c++): Calculates the total of hours:minutes:seconds of an given number of total of seconds.
+- [1000.cpp](C++/1000.cpp): Prints "Hello World!".
+- [1001.cpp](C++/1001.cpp): Reads two integers and prints their sum.
+- [1002.cpp](C++/1002.cpp): Calculates the area of a circle given its radius.
+- [1003.cpp](C++/1003.cpp): Reads two integers and prints their sum.
+- [1004.cpp](C++/1004.cpp): Reads two integers and prints their product.
+- [1005.cpp](C++/1005.cpp): Calculates the weighted average of two grades.
+- [1006.cpp](C++/1006.cpp): Calculates the weighted average of three grades.
+- [1007.cpp](C++/1007.cpp): Calculates the difference between the product of two pairs of integers.
+- [1008.cpp](C++/1008.cpp): Calculates the salary of an employee.
+- [1009.cpp](C++/1009.cpp): Calculates the total salary including commission.
+- [1010.cpp](C++/1010.cpp): Calculates the total to pay about two types of pieces and the quantity.
+- [1011.cpp](C++/1011.cpp): Calculates the volume of a sphere given its radius.
+- [1012.cpp](C++/1012.cpp): Calculates various geometric areas given three values.
+- [1014.cpp](C++/1014.cpp): Calculates fuel consumption.
+- [1015.cpp](C++/1015.cpp): Calculates the distance between two points.
+- [1016.cpp](C++/1016.cpp): Calculates the time in minutes for car B, traveling at 90 km/h, to surpass car A, traveling at 60 km/h, by a user-determined distance in kilometers.
+- [1017.cpp](C++/1017.cpp): Calculates the fuel consumption of a car (12 liters per kilometer) based on the average speed and time given by the user.
+- [1018.cpp](C++/1018.cpp): Calculates the total of cedulas of an given number of total of the value.
+- [1019.cpp](C++/1019.cpp): Calculates the total of hours:minutes:seconds of an given number of total of seconds.
 - [1020.cpp](C++/1020.cpp): Calculates the total of years, month and days of an given  integer number of total of days.
 - [1021.cpp](C++/1021.cpp): Calculates the total of cedulas and coins of an given number of total of the value.
 - [1153.cpp](C++/1153.cpp): Calculates the fatorial of a integer.
