@@ -130,7 +130,7 @@ If you want some tips for C++, you can read a [Tips for C](C++/TipsForC++.md) do
 ---
 
 ## Kotlin
-- In Construction
+- [1000.kt](Kotlin/1000.kt): Prints "Hello World!".
 
 ---
 
