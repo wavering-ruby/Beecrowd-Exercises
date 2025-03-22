@@ -82,6 +82,9 @@ If you want some tips for C++, you can read a [Tips for C](C++/TipsForC++.md) do
 - [1042.cpp](C++/1042.cpp):
 - [1045.cpp](C++/1045.cpp):
 - [1047.cpp](C++/1047.cpp):
+- [1048.cpp](C++/1048.cpp):
+- [1049.cpp](C++/1049.cpp):
+- [1050.cpp](C++/1050.cpp):
 - [1153.cpp](C++/1153.cpp): Calculates the fatorial of a integer.
 
 ---
