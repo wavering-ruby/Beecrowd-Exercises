@@ -77,9 +77,9 @@ If you want some tips for C++, you can read a [Tips for C](C++/TipsForC++.md) do
 - [1036.cpp](C++/1036.cpp):
 - [1037.cpp](C++/1037.cpp): Determines the interval in which a value falls.
 - [1038.cpp](C++/1038.cpp):
-- [1040.cpp](C++/1040.cpp):
-- [1041.cpp](C++/1041.cpp):
-- [1042.cpp](C++/1042.cpp):
+- [1040.cpp](C++/1040.cpp): Calculates the average of four grades and determines the student's status.
+- [1041.cpp](C++/1041.cpp): Determines the quadrant of a point in the Cartesian plane.
+- [1042.cpp](C++/1042.cpp): Sorts three integers in ascending order.
 - [1045.cpp](C++/1045.cpp):
 - [1047.cpp](C++/1047.cpp):
 - [1048.cpp](C++/1048.cpp):
