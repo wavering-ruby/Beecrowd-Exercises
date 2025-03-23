@@ -74,7 +74,7 @@ If you want some tips for C++, you can read a [Tips for C](C++/TipsForC++.md) do
 - [1020.cpp](C++/1020.cpp): Calculates the total of years, month and days of an given  integer number of total of days.
 - [1021.cpp](C++/1021.cpp): Calculates the total of cedulas and coins of an given number of total of the value.
 - [1035.cpp](C++/1035.cpp): Checks if four values meet certain conditions.
-- [1036.cpp](C++/1036.cpp):
+- [1036.cpp](C++/1036.cpp): Bhaskara's formula.
 - [1037.cpp](C++/1037.cpp): Determines the interval in which a value falls.
 - [1038.cpp](C++/1038.cpp): Calculates the total price for a given item code and quantity.
 - [1040.cpp](C++/1040.cpp): Calculates the average of four grades and determines the student's status.
