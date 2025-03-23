@@ -83,7 +83,7 @@ If you want some tips for C++, you can read a [Tips for C](C++/TipsForC++.md) do
 - [1045.cpp](C++/1045.cpp): Determines the type of triangle based on three given sides.
 - [1047.cpp](C++/1047.cpp): Calculates the duration of a game based on start and end times.
 - [1048.cpp](C++/1048.cpp): Calculates the new salary of an employee based on a given percentage increase.
-- [1049.cpp](C++/1049.cpp):
+- [1049.cpp](C++/1049.cpp): Identifies an animal based on a series of characteristics.
 - [1050.cpp](C++/1050.cpp):
 - [1153.cpp](C++/1153.cpp): Calculates the fatorial of a integer.
 
