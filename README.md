@@ -85,6 +85,7 @@ If you want some tips for C++, you can read a [Tips for C](C++/TipsForC++.md) do
 - [1048.cpp](C++/1048.cpp): Calculates the new salary of an employee based on a given percentage increase.
 - [1049.cpp](C++/1049.cpp): Identifies an animal based on a series of characteristics.
 - [1050.cpp](C++/1050.cpp): Returns the name of a city based on a given DDD code.
+- [1059.cpp](C++/1059.cpp): Prints all even numbers between 1 and 100.
 - [1153.cpp](C++/1153.cpp): Calculates the fatorial of a integer.
 
 ---
