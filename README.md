@@ -80,7 +80,7 @@ If you want some tips for C++, you can read a [Tips for C](C++/TipsForC++.md) do
 - [1040.cpp](C++/1040.cpp): Calculates the average of four grades and determines the student's status.
 - [1041.cpp](C++/1041.cpp): Determines the quadrant of a point in the Cartesian plane.
 - [1042.cpp](C++/1042.cpp): Sorts three integers in ascending order.
-- [1045.cpp](C++/1045.cpp): 
+- [1045.cpp](C++/1045.cpp): Determines the type of triangle based on three given sides.
 - [1047.cpp](C++/1047.cpp):
 - [1048.cpp](C++/1048.cpp):
 - [1049.cpp](C++/1049.cpp):
