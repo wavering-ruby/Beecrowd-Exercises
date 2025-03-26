@@ -144,8 +144,8 @@ If you want some tips for C++, you can read a [Tips for C](C++/TipsForC++.md) do
 Abaixo está o progresso de conclusão dos exercícios por linguagem:
 
 - **C**: 8.98% concluído
-- **C#**: 0.6% concluído
-- **C++**: 11.98% concluído
+- **C#**: 0.9% concluído
+- **C++**: 12.87% concluído
 - **Java**: 2.1% concluído
 - **JavaScript**: 1.2% concluído
 - **Kotlin**: 0.3% concluído
