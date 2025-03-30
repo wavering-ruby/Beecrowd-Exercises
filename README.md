@@ -146,13 +146,13 @@ Abaixo está o progresso de conclusão dos exercícios por linguagem:
 
 - **C**: 8.98% concluído
 - **C#**: 0.9% concluído
-- **C++**: 12.87% concluído
+- **C++**: 13.17% concluído
 - **Java**: 2.1% concluído
 - **JavaScript**: 1.2% concluído
 - **Kotlin**: 0.3% concluído
 - **Lua**: 0.9% concluído
 - **Python**: 2.91% concluído
-- **SQL**: 8.0% concluído
+- **SQL**: 40.0% concluído
 - **Swift**: 0.29% concluído
 
 ---
