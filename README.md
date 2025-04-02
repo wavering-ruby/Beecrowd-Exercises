@@ -140,6 +140,8 @@ If you want some tips for C++, you can read a [Tips for C](C++/TipsForC++.md) do
 
 ---
 
+Atualizado automaticamente.
+
 ## Progresso dos Exercícios
 
 Abaixo está o progresso de conclusão dos exercícios por linguagem:
@@ -152,7 +154,7 @@ Abaixo está o progresso de conclusão dos exercícios por linguagem:
 - **Kotlin**: 0.3% concluído
 - **Lua**: 0.9% concluído
 - **Python**: 2.91% concluído
-- **SQL**: 40.0% concluído
+- **SQL**: 42.0% concluído
 - **Swift**: 0.29% concluído
 
 ---
