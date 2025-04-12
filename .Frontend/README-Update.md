@@ -21,13 +21,23 @@ Notice that's a brazilian repository, so some files and variables probably it's 
 
 # General Progress
 ![C](https://img.shields.io/badge/40%25-00599C?style=for-the-badge&logo=c&logoColor=white)
+
 ![C++](https://img.shields.io/badge/25%25-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+
 ![C#](https://img.shields.io/badge/C%23-10%25-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+
 ![Java](https://img.shields.io/badge/60%25-007396?style=for-the-badge&logo=java&logoColor=white)
+
 ![JavaScript](https://img.shields.io/badge/80%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
 ![Kotlin](https://img.shields.io/badge/15%25-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)
+
 ![Lua](https://img.shields.io/badge/5%25-2C2D72?style=for-the-badge&logo=lua&logoColor=white)
+
 ![Pascal](https://img.shields.io/badge/30%25-9ACD32?style=for-the-badge&logo=pascal&logoColor=white)
+
 ![Python](https://img.shields.io/badge/100%25-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
 ![SQL](https://img.shields.io/badge/70%25-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
 ![Swift](https://img.shields.io/badge/0%25-FA7343?style=for-the-badge&logo=swift&logoColor=white)
