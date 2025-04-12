@@ -20,9 +20,9 @@ Notice that's a brazilian repository, so some files and variables probably it's 
 ---
 
 # General Progress
-![C](https://img.shields.io/badge/-40%25-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/-25%25-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![C#](https://img.shields.io/badge/%23-10%25-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![C](https://img.shields.io/badge/40%25-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/25%25-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![C#](https://img.shields.io/badge/10%25-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![Java](https://img.shields.io/badge/-60%25-007396?style=for-the-badge&logo=java&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-80%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Kotlin](https://img.shields.io/badge/-15%25-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)
