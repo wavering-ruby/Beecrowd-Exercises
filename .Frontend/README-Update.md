@@ -1,7 +1,11 @@
-<img src='./imgs/beecrowd_banner.png' align='center' width="50%" height="50%">
+<p>
+    <img src='./imgs/beecrowd_banner.png' align='center' width="50%" height="50%">
+</p>
 
 ---
+
 # Introduction
+
 This repository contains solutions to various Beecrowd exercises in multiple programming languages. The exercises are organized into folders based on the programming language used and the category.
 
 The exercise have nine categorys:
@@ -20,6 +24,7 @@ Notice that's a brazilian repository, so some files and variables probably it's 
 ---
 
 # General Progress
+
 ![C](https://img.shields.io/badge/40%25-00599C?style=for-the-badge&logo=c&logoColor=white)
 
 ![C++](https://img.shields.io/badge/25%25-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
@@ -41,3 +46,5 @@ Notice that's a brazilian repository, so some files and variables probably it's 
 ![SQL](https://img.shields.io/badge/70%25-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ![Swift](https://img.shields.io/badge/0%25-FA7343?style=for-the-badge&logo=swift&logoColor=white)
+
+---
