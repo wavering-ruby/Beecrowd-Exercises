@@ -1,4 +1,4 @@
-<img src='./imgs/beecrowd_banner.png' align='center'>
+<img src='./imgs/beecrowd_banner.png' align='center' width="50%" height="50%">
 
 ---
 # Introduction
