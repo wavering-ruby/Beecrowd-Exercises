@@ -1,4 +1,4 @@
-<p>
+<p align="center">
     <img src='./imgs/beecrowd_banner.png' align='center' width="50%" height="50%">
 </p>
 
@@ -26,6 +26,11 @@ Notice that's a brazilian repository, so some files and variables probably it's 
 # General Progress
 
 ![C](https://img.shields.io/badge/40%25-00599C?style=for-the-badge&logo=c&logoColor=white)
+
+<!--
+    The template to generate this code is:
+    f"![{folder.name}](https://img.shields.io/badge/{percet.total * 100}%25-00599C?style=for-the-badge&logo={folder.name}&logoColor=white)"
+ -->
 
 ![C++](https://img.shields.io/badge/25%25-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
