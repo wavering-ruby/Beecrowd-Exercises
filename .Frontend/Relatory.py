@@ -67,13 +67,12 @@ def get_folder_structure(base_path, script_dir, extensions=None):
     
     return folder_data
 
-
 def print_folder_data(folder_data_list, base_path=""):
     """
     Imprime a estrutura de pastas e arquivos formatada.
     
     Args:
-        folder_data_list (list): Lista de dicionários (saída de get_folder_structure).
+        folder_data_list (list): Lista de dicionários.
         base_path (str, optional): Caminho base para links clicáveis.
     """
     print("\n📂 Estrutura de Pastas:")
@@ -95,6 +94,53 @@ def print_folder_data(folder_data_list, base_path=""):
         print(f"Total de arquivos: {len(folder_data['folderFiles'])}")
     print("\n✅ Fim da listagem.\n")
 
+def calculating_percentage(b_exercises, folder_data_list):
+    """
+    Calcula a porcentagem de arquivos em relação ao total de exercícios por categoria.
+    
+    Args:
+        b_exercises (dict): Dicionário com o total de exercícios por pasta.
+                           Ex: {"1. Beginner": 10, "2. Ad-Hoc": 15}
+        folder_data_list (list): Lista de dicionários com os arquivos de cada pasta.
+                                Ex: [{"folderName": "1. Beginner", "folderFiles": ["ex1.cpp", "ex2.cpp"]}, ...]
+    
+    Returns:
+        list: Lista de dicionários com o nome da pasta e a porcentagem concluída.
+              Ex: [{"folderName": "1. Beginner", "percentage": 20.0}, ...]
+    """
+    folder_percentages = []
+    
+    for folder_data in folder_data_list:
+        folder_name = folder_data['folderName']
+        folder_files = folder_data['folderFiles']
+        total_files = len(folder_files)
+        
+        # Verifica se a pasta está no dicionário de exercícios
+        if folder_name in b_exercises:
+            total_exercises = b_exercises[folder_name]
+            
+            # Calcula a porcentagem (com tratamento para divisão por zero)
+            percentage = (total_files / total_exercises * 100) if total_exercises > 0 else 0.0
+            
+            folder_percentages.append({
+                "folderName": folder_name,
+                "percentage": percentage,
+                "completed": total_files,
+                "total": total_exercises
+            })
+            
+            print(f"📁 {folder_name}: {total_files}/{total_exercises} exercícios → {percentage:.2f}% concluído")
+        else:
+            print(f"⚠️ {folder_name}: Pasta não encontrada no dicionário de exercícios.")
+            folder_percentages.append({
+                "folderName": folder_name,
+                "percentage": 0.0,
+                "completed": total_files,
+                "total": 0
+            })
+    
+    return folder_percentages
+
 # 1. Pega o diretório atual do script
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
@@ -106,5 +152,20 @@ folder_path = os.path.normpath(folder_path)  # Remove "../" e normaliza
 if not os.path.exists(folder_path):
     raise FileNotFoundError(f"Pasta não encontrada: {folder_path}")
 
+# Definindo a quantidade de arquivos por type
+beecrowd_exercises = {
+    "1. Beginner": 334,
+    "2. Ad-Hoc": 850,
+    "3. Strings": 150,
+    "4. Structures and Librarys": 180,
+    "5. Mathematics": 260,
+    "6. Paradigms": 215,
+    "7. Graphs": 277,
+    "8. Computational Geometry": 83,
+    "9. SQL": 50
+}
+
 # Exibe os dados (usando a função printFolderData do exemplo anterior)
 print_folder_data(get_folder_structure(folder_path, script_dir, [".cpp"]), base_path = folder_path)
+
+calculating_percentage(beecrowd_exercises, get_folder_structure(folder_path, script_dir, [".cpp"]))
