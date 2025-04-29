@@ -38,8 +38,6 @@ def get_folder_structure(base_path, script_dir, extensions=None):
     
     return folder_data
 
-import os
-
 def get_folder_structure(base_path, script_dir, extensions=None):
     """
     Retorna a estrutura de pastas e arquivos de um diretório base.
