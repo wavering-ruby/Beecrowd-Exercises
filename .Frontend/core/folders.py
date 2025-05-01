@@ -67,7 +67,7 @@ def get_folder_structure(base_path, script_dir, extensions=None):
     
     return folder_data
 
-def print_folder_data(folder_data_list, base_path=""):
+def print_folder_data(folder_data_list, base_path = ""):
     """
     Imprime a estrutura de pastas e arquivos formatada.
     

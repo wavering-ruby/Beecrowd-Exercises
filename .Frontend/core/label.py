@@ -20,5 +20,17 @@ def label_perc(perc_folder, extension):
         extensionName = "C++"
         extension = "cplusplus"
     
+    # Colocando as corzinhas bases;
+    language_background = {
+        "C++": "00599C",
+        "C": "283593",
+        "Python": "3776AB",
+        "Java": "336791",
+        "Kotlin": "7F52FF",
+        "Lua": "000080"
+    }
+    
+    color = language_background[extensionName]
+    
     # Gera o label com a porcentagem e a extensão
-    return f"![{extension}](https://img.shields.io/badge/{extensionName}-{perc_folder}%25-gray?style=flat-square&logo={extension}&logoColor=white&labelColor=black)"
+    return f"![{extension}](https://img.shields.io/badge/{extensionName}-{perc_folder}%25-{color}?style=flat-square&logo={extension}&logoColor=white&labelColor={color})"

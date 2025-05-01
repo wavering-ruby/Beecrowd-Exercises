@@ -26,6 +26,8 @@ beecrowd_exercises = {
     "9. SQL": 50
 }
 
+
+
 # Exibe os dados (usando a função printFolderData do exemplo anterior)
 print_folder_data(get_folder_structure(folder_path, script_dir, [".cpp"]), base_path = folder_path)
 
