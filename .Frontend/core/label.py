@@ -19,15 +19,24 @@ def label_perc(perc_folder, extension):
     if(extension == "cpp"):
         extensionName = "C++"
         extension = "cplusplus"
+        
+    if(extension == "sql"):
+        extensionName = "PostgreSQL"
+        extension = "PostgreSQL"
     
     # Colocando as corzinhas bases;
     language_background = {
-        "C++": "00599C",
         "C": "283593",
-        "Python": "3776AB",
-        "Java": "336791",
+        "C#": "9B4993",
+        "C++": "00599C",
+        "Java": "5382A1",
+        "JavaScript": "F7DF1E",
         "Kotlin": "7F52FF",
-        "Lua": "000080"
+        "Lua": "000080",
+        "Pascal": "E30000",
+        "Python": "3776AB",
+        "SQL": "FFD700",
+        "Swift": "FA7343"
     }
     
     color = language_background[extensionName]
