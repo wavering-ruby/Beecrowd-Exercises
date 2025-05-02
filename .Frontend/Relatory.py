@@ -9,12 +9,10 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 languages = ["C", "C#", "C++", "Java", "JavaScript", "Kotlin", "Lua", "Pascal", "Python", "SQL", "Swift"]
 folders_path = []
 
-for lang in languages:
-    f_path = os.path.join(script_dir, "..", lang)
-    f_path = os.path.normpath(f_path)  # Remove "../" e normaliza
-    folders_path.append(f_path)
-
-print(folders_path)
+#for lang in languages:
+f_path = os.path.join(script_dir, "..", "C++")
+f_path = os.path.normpath(f_path)  # Remove "../" e normaliza
+folders_path.append(f_path)
 
 # 3. Verifica se o caminho existe antes de usar
 if not os.path.exists(f_path):
