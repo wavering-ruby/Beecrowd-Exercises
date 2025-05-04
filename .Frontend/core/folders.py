@@ -55,7 +55,7 @@ def get_folder_structure(base_path, script_dir, extensions=None):
 
     # Nessa variável, deve-se ter todos os nomes das pastas da maneira CORRETA que estão no diretório
     # Se qualquer coisa estiver errada, ele retornará erro do sistema não encontrar o caminho especificado!
-    folders = ["1. Beginner", "2. Ad-Hoc", "4. Structures and Librarys", "5. Mathematics"]
+    folders = ["1. Beginner", "2. Ad-Hoc", "3. Strings", "4. Structures and Librarys", "5. Mathematics"]
     folder_data = []
     
     for folder in folders:
